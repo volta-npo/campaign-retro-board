@@ -76,7 +76,11 @@ export const domain = {
     "Evidence note attached",
     "Win/loss summary generated",
     "Lesson recorded",
-    "Next experiment queued"
+    "Next experiment queued",
+    "Experiment hypothesis recorded",
+    "Metric delta calculated",
+    "Reusable lesson tagged",
+    "CSV schema validated"
   ],
   "artifacts": [
     "Retro report",
@@ -88,5 +92,32 @@ export const domain = {
     "Dates required",
     "Concrete next action before complete"
   ],
-  "sampleClient": "Oak & Olive Cafe"
+  "sampleClient": "Oak & Olive Cafe",
+  "modules": [
+    { "name": "Experiment ledger", "description": "Hypothesis, channel, audience, budget, dates, baseline, result, and confidence tracking." },
+    { "name": "Delta analytics", "description": "Before/after metrics, lift/drop, spend efficiency, and learning priority calculations." },
+    { "name": "Lesson library", "description": "Reusable insight cards with evidence, tags, next-test recommendation, and confidence level." },
+    { "name": "CSV validator", "description": "Campaign metric import schema checks, missing field alerts, and clean export for stakeholder review." }
+  ],
+  "saas": {
+    "playbooks": [
+      "Campaign hypothesis review",
+      "Metric delta analysis workflow",
+      "Reusable lesson publishing",
+      "Next-test prioritization meeting"
+    ],
+    "automations": [
+      "CSV schema validation",
+      "Lift/drop calculation",
+      "Lesson confidence scoring",
+      "Next-test backlog generation"
+    ],
+    "revenueModel": "Team retro workspace with paid stakeholder dashboards and reusable lesson repositories",
+    "integrationTargets": [
+      "Google Sheets metrics",
+      "Meta Ads reports",
+      "Mailchimp campaign exports",
+      "Notion lesson library"
+    ]
+  }
 };
