@@ -28,6 +28,17 @@ export declare const domain: {
         description: string;
     }[];
     saas: {
+        customerSegments: string[];
+        pricingTiers: string[];
+        onboardingChecklist: string[];
+        successMetrics: string[];
+        dashboards: string[];
+        dataModel: string[];
+        permissions: string[];
+        compliance: string[];
+        lifecycle: string[];
+        retentionSignals: string[];
+        exportChannels: string[];
         playbooks: string[];
         automations: string[];
         revenueModel: string;
